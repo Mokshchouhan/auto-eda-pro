@@ -1,0 +1,13 @@
+column,missing_count,missing_ratio,non_missing_count,unique_non_missing
+Cabin,687,0.771044,204,147
+Age,177,0.198653,714,88
+Embarked,2,0.002245,889,3
+PassengerId,0,0.0,891,891
+Name,0,0.0,891,891
+Pclass,0,0.0,891,3
+Survived,0,0.0,891,2
+Sex,0,0.0,891,2
+Parch,0,0.0,891,7
+SibSp,0,0.0,891,7
+Fare,0,0.0,891,248
+Ticket,0,0.0,891,681
