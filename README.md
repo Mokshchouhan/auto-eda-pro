@@ -68,7 +68,7 @@ auto-eda-pro/
     └── outliers/
         ├── iqr_mask.csv
         └── zscore_mask.csv
-```
+
 
 ## 📦 Installation
 
@@ -128,3 +128,5 @@ Workflow file: .github/workflows/ci.yml
 ✨ Author
 Moksh (AIZEN)
 If you like this project, consider ⭐ starring it on GitHub!
+
+```
