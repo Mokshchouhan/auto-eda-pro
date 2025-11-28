@@ -51,9 +51,6 @@ auto-eda-pro/
 │       ├── outliers.py
 │       └── visuals.py
 │
-├── notebooks/
-│   └── (Jupyter templates will go here later)
-│
 ├── tests/
 │   └── (pytest test files will go here later)
 │
