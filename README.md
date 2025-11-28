@@ -53,6 +53,7 @@ auto-eda-pro/
 │ ├── distributions.py
 │ ├── correlations.py
 │ ├── outliers.py
+│ └── init.py
 │
 ├── tests/
 │ ├── test_types.py
@@ -62,18 +63,15 @@ auto-eda-pro/
 │ └── test_outliers.py
 │
 ├── examples/
-│ ├── iris.csv
 │ ├── titanic.csv
+│ ├── iris.csv
 │ └── messy_dataset.csv
 │
 ├── pyproject.toml
 ├── README.md
-└── LICENSE
-
-yaml
-Copy code
-
----
+├── LICENSE
+└── .github/
+└── workflows/
 
 ## 📦 Installation
 
