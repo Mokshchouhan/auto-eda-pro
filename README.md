@@ -1,7 +1,6 @@
 # 🚀 auto-eda-pro  
 ### Automated Exploratory Data Analysis (EDA) Pipeline with CLI + Streamlit UI
 
-![Build](https://github.com/<Mokshchouhan>/auto-eda-pro/actions/workflows/ci.yml/badge.svg)
 ![Coverage](https://img.shields.io/badge/coverage-100%25-brightgreen)
 ![Python](https://img.shields.io/badge/python-3.9+-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
