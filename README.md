@@ -1,7 +1,6 @@
 # 🚀 auto-eda-pro  
 ### Automated Exploratory Data Analysis (EDA) Pipeline with CLI + Streamlit Dashboard
 
-![Build](https://github.com/<YOUR-USERNAME>/auto-eda-pro/actions/workflows/ci.yml/badge.svg)
 ![Coverage](https://img.shields.io/badge/coverage-100%25-brightgreen)
 ![Python](https://img.shields.io/badge/python-3.9+-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
@@ -32,60 +31,53 @@ It includes:
 
 auto-eda-pro/
 │
-├── src/
-│ └── auto_eda_pro/
-│ ├── load.py
-│ ├── types.py
-│ ├── summary.py
-│ ├── missing.py
-│ ├── correlation.py
-│ ├── outliers.py
-│ ├── visuals.py
-│ └── init.py
-│
-├── tools/
-│ └── auto_eda.py
-│
-├── ui/
-│ ├── app.py
-│ └── app_pages/
-│ ├── overview.py
-│ ├── missing.py
-│ ├── distributions.py
-│ ├── correlations.py
-│ ├── outliers.py
-│ └── init.py
-│
-├── tests/
-│ ├── test_types.py
-│ ├── test_summary.py
-│ ├── test_missing.py
-│ ├── test_visuals.py
-│ └── test_outliers.py
-│
-├── examples/
-│ ├── titanic.csv
-│ ├── iris.csv
-│ └── messy_dataset.csv
-│
-├── .github/
-│ └── workflows/
-│ └── ci.yml
-│
 ├── pyproject.toml
 ├── README.md
-└── LICENSE
+├── LICENSE
+├── CHANGELOG.md
+├── .gitignore
+│
+├── tools/
+│   └── auto_eda.py
+│
+├── src/
+│   └── auto_eda_pro/
+│       ├── __init__.py
+│       ├── data.py
+│       ├── types.py
+│       ├── summary.py
+│       ├── missing.py
+│       ├── correlation.py
+│       ├── outliers.py
+│       └── visuals.py
+│
+├── notebooks/
+│   └── (Jupyter templates will go here later)
+│
+├── tests/
+│   └── (pytest test files will go here later)
+│
+├── examples/
+│   ├── titanic.csv          (optional place to store datasets)
+│   ├── iris.csv
+│   └── penguins.csv
+│
+└── outputs/
+    ├── summary_stats.csv
+    ├── missing_summary.csv
+    ├── correlation_matrix.csv
+    ├── missing_heatmap.png
+    ├── correlation_heatmap.png
+    └── outliers/
+        ├── iqr_mask.csv
+        └── zscore_mask.csv
 
-yaml
-Copy code
-
----
 
 ## 📦 Installation
 
 ### Clone the repository
-```bash
-git clone https://github.com/<YOUR-USERNAME>/auto-eda-pro.git
+
+git clone https://github.com/<Mokshchouhan>/auto-eda-pro.git
 cd auto-eda-pro
 Create and activate virtual environment
 bash
@@ -136,13 +128,6 @@ Workflow file: .github/workflows/ci.yml
 
  Publish package on PyPI
 
-📜 License
-This project is licensed under the MIT License — see the LICENSE file for full text.
-
 ✨ Author
 Moksh (AIZEN)
-Built with guidance from ChatGPT.
 If you like this project, consider ⭐ starring it on GitHub!
-
-yaml
-Copy code
