@@ -28,7 +28,7 @@ It includes:
 ---
 
 ## 📁 Project Structure
-
+```bash 
 auto-eda-pro/
 │
 ├── pyproject.toml
@@ -68,7 +68,7 @@ auto-eda-pro/
     └── outliers/
         ├── iqr_mask.csv
         └── zscore_mask.csv
-
+```
 
 ## 📦 Installation
 
