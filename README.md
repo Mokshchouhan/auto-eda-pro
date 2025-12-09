@@ -52,10 +52,10 @@ auto-eda-pro/
 │       └── visuals.py
 │
 ├── tests/
-│   └── (pytest test files will go here later)
+│   
 │
 ├── examples/
-│   ├── titanic.csv          (optional place to store datasets)
+│   ├── titanic.csv          
 │   ├── iris.csv
 │   └── penguins.csv
 │
